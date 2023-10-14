@@ -8,8 +8,13 @@ https://qachallenge.ro/api/
 **Create (POST):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=insert
 
-Body (form-data) parameters: Key: first_name     Value: RRRRR
-                             Key: last_name      Value: BBBBB
+Body (form-data) parameters: 
+
+*Key*: first_name    
+*Value*: RRRRR
+
+*Key*: last_name     
+*Value*: BBBBB
 
 **Result:**
 User has been added to the list.
@@ -42,8 +47,13 @@ The application will return just the user with the specified ID.
 **Update (POST):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=update&id=808
 
-Body (form-data) parameters: Key: first_name     Value: Razvan
-                             Key: last_name      Value: Bibirig
+Body (form-data) parameters: 
+
+*Key*: first_name     
+*Value*: Razvan
+                            
+*Key*: last_name      
+*Value*: Bibirig
 
 **Result:**
 The user with ID 808 will take new values from the Body section.
