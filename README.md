@@ -5,6 +5,8 @@ Here are some examples of API testing using Postman tool.
 **API:**
 https://qachallenge.ro/api/
 
+-----------------------------------
+
 **Create (POST):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=insert
 
@@ -23,7 +25,7 @@ User has been added to the list.
 
 ![API_Create(1)](https://github.com/RazvanBrG/API-Testing/assets/145659747/c1e6c7a1-43ef-47ad-8d6e-5fef8e380dc7)
 
-
+--------------------------------
 
 **Read (GET):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=fetch_all
@@ -42,7 +44,7 @@ The application will return just the user with the specified ID.
 
 ![API_Read_1](https://github.com/RazvanBrG/API-Testing/assets/145659747/dc56d1b5-ad01-4785-93c5-45adad9c2e28)
 
-
+------------------------------------
 
 **Update (POST):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=update&id=808
@@ -61,7 +63,7 @@ The user with ID 808 will take new values from the Body section.
 ![API_Update](https://github.com/RazvanBrG/API-Testing/assets/145659747/56df2095-8772-4fd6-8285-4eed1badc77e)
 ![API_Update(1)](https://github.com/RazvanBrG/API-Testing/assets/145659747/9f8c59d4-51c7-4951-8e12-0432e47a7ade)
 
-
+-----------------------------------
 
 **Delete(DELETE):**
 Endpoint: http://qachallenge.ro/api/test_api.php?action=delete&id=808
